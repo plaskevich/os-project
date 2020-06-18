@@ -1,0 +1,159 @@
+.home-logo {
+  height: 50px;
+  float: left;
+  margin-left: 30px;
+}
+
+.home-header {
+  background-color: #ffffff;
+  height: 50px;
+}
+
+.sign-btn {
+  color: #000;
+  margin-right: 30px
+}
+
+.sign-btn:hover {
+  color: #FF8B8B;
+  text-decoration: none;
+}
+
+.banner-text {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  font-size: 33px;
+  color: #FF8B8B;
+  text-align: center;
+
+}
+
+.banner1 {
+  height: 440px;
+  float: left;
+  background-size: cover;
+  background-image: url('./img/banner1.png');
+}
+
+.banner2 {
+  height: 440px;
+  float: right;
+  background-size: cover;
+  background-image: url('./img/banner2.png');
+}
+
+.banner1:hover {
+  filter: brightness(1.2)
+}
+
+.banner2:hover {
+  filter: brightness(1.2)
+}
+
+.bottom {
+  background-color: #0E1014;
+  height: 400px;
+}
+
+.bottom-header {
+  position: relative;
+  float: left;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 33px;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-align: center;
+}
+
+.bottom-text {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  font-size: 21px;
+  color: #FF8B8B;
+  text-align: center;
+  font-weight: 300;
+}
+
+.browse-logo {
+  height: 50px;
+  float: left;
+  margin-left: 30px;
+  filter: invert(100%);
+}
+
+.browse-header {
+  background-color: #747D8C;
+  height: 50px;
+}
+
+.user-logo {
+  color: #fff;
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.browse-nav-btn {
+  color: #fff;
+  margin-right: 50px;
+}
+
+.browse-nav-btn:hover {
+  text-decoration: none;
+  color: #FF8B8B;
+}
+
+.active {
+  font-weight: 700;
+}
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.suggested {
+  height: 468px;
+  background-size: cover;
+  background-image: url('./img/suggested-bkg.png');
+  padding: 30px;
+  text-align: center;
+}
+
+.genres {
+  height: 492px;
+  background-size: cover;
+  background-image: url('./img/genres-bkg.png');
+  padding: 30px;
+  text-align: center;
+}
+
+.suggested-text {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.show-more {
+  color: #FF8B8B;
+}
+
+.show-more:hover {
+  text-decoration: none;
+  color: #ff3c3c;
+}
